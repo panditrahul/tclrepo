@@ -1,0 +1,30 @@
+
+Priority Items: 
+--------------------------------------------------
+	1. MIG-LAP-N2N-WeldHAZFromCAD: Check how to retain the trim lines. Plus Minor Bugs.
+	2. MIG-T-N2N-WeldHAZFromCAD: Get 45-deg slant for the weld throat. Plus Minor Updates.
+	3. Test the SpotweldConnectorsFromCSV tool on full BIW.
+	4 (DONE). Update the LSDynaMatAssignFromCSV to pull comps in hm using names.
+	5. Config Files for ID-Manager has to added to HM. 
+	
+
+Next-in Line Items:
+--------------------------------------------------
+	1 (DONE). Migrate all BM File to HM Tools.
+	2. SpotweldConnectorsFromCSV Tool: Change default config to RBE3-CBEAM-RBE3-CBEAM.
+	3. LSDynaPropAssignFromCAD Tool: Set the assembly identifier XX to default value "99".
+	4. LSDynaPropAssignFromCAD Tool: If the St.dev is large (>5% of mean), display warning.
+	5. Check if ids starting from 99M can be offset to 89M by -10M.
+	6. Rename the files/buttons of all Mahindra tools per the aforementioned nomenclature.
+	7. Migrate all tools to Mahindra-ToolSet.
+
+Nomenclature for MainFile, LogFiles and Buttons:
+--------------------------------------------------
+	RapidLoadFiles
+	SpotweldHolesFromCSV
+	SpotweldConnectorsFromCSV
+	LSDynaMatAssignFromCSV
+	LSDynaPropAssignFromCAD
+	NastranPropAssignFromCAD
+	MIG-LAP-N2N-WeldHAZFromCAD
+	MIG-T-N2N-WeldHAZFromCAD
